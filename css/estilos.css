@@ -1,0 +1,121 @@
+body{
+    background-color: #f1eeee;
+}
+header{
+    margin-bottom: 20px;
+}
+.caja{
+    width: 940px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+h1{
+    position: absolute;
+    top: 25px;
+}
+.titulo{
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+main{
+    margin: 0 auto;
+    width: 940px;
+}
+.contenedor{
+    width: 940px;
+    height: 700px;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+canvas{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 940px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.copyright{
+    position: absolute;
+    color:#000000;
+    font-size: 20px;
+    font-weight: bold;
+    right: 500px;
+}
+.img-poke{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 100px;
+
+}
+#repe{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+.teclado{
+    margin: 10px auto;
+    width: 600px;
+    height: 130px;
+}
+#letras{
+    height: 100%;
+}
+#letras>button {
+    padding: 10px;
+    width: 55px;
+    text-align: center;
+    margin: 2px;
+    float: left;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:480px){
+.body{
+    background-color: rgb(199, 71, 32);
+}
+.caja{
+    height: 60px;
+    width: auto;
+}
+main,.contenedor,footer,.teclado{
+    width: auto;
+}
+.logo{
+    margin-left: 20px;
+}
+.titulo{
+    font-size: 40px;
+    right: 10px;
+}
+#repe{
+    font-size: 22px;
+}
+.teclado{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 280px;
+}
+#letras>button{
+    width: 60px;
+}
+.copyright{
+    right: auto;
+}
+.img-poke{
+    display: none;
+}
+}
